@@ -1,2 +1,0 @@
-class HighScoreController < ApplicationController
-end
