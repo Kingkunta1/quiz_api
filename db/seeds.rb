@@ -21,3 +21,7 @@ answer_3 = Answer.create(name: "no", score: 2, questione_id:3)
 answer_4 = Answer.create(name: "no", score: 3, questione_id:4)
 answer_5 = Answer.create(name: "yes", score: 4, questione_id:5)
 # maybe make the attribute for answer into a boolean
+
+
+Questione.destroy_all
+Answer.destroy_all
