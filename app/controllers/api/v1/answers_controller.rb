@@ -1,4 +1,5 @@
 class Api::V1::AnswersController < ApplicationController
+  include ::ActionController::Serialization
 
   def index
      # localhost:3000/Answers -> displays all answers -> GET REQUEST
@@ -12,9 +13,9 @@ class Api::V1::AnswersController < ApplicationController
      end
 
 
-     def create
-
-     end
+     # def create
+     #
+     # end
 
 
   end
